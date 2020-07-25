@@ -180,6 +180,12 @@ img {
 	width:100%;
 }
 
+.icon-img {
+	height:33%;
+	width:33%;
+	margin-left: 30%;
+}
+
 .about-container {
 	height:80vh;
 	display:inline-block;
@@ -239,6 +245,10 @@ footer {
 	margin-top:1em;
 }
 
+.spacer {
+	height: 24vh;
+}
+
 
 
 
@@ -284,13 +294,12 @@ footer {
 }
 
 @media screen and (min-width: 1200px){
-	label, input[type=text], input[type=Phone], input[type=email], select, {
+	label, input[type=text], input[type=Phone], input[type=email], select {
 	width: 40%;
 	display:inline-block;
 	margin:auto;
-	display: inline-block;
-	
 	}
+
 	 label {
 	 	padding-bottom: 2em;
 	 }
@@ -306,7 +315,8 @@ footer {
 	.title-group{
 		display:inline-block;
 	}
-		.tags, .yellow-text, {
+	
+	.tags, .yellow-text {
 		font-size:3em;
 
 	}
@@ -318,7 +328,6 @@ footer {
 	.title-text {
 		display: inline;
 		text-align: left;
-		float:left;
 		padding-left: 0.5em;
 		
 	}
@@ -365,4 +374,4 @@ footer {
 	 	width:10%;
 	 }
 
-}
+	}
